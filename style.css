@@ -4,7 +4,25 @@
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
 }
-.red{
-    color: red;
-    font-family:cursive;
+
+.main{
+    display: flex;
+    flex-direction:column;
+    margin-left: 10%;
+    margin-top: 10%;
+    height: 100vh;
+}
+
+#typed-output{
+    font-family: sans-serif;
+    color: #ee6c4d;
+}
+.first{
+    font-size: 50px;
+    margin-top: 15px;
+}
+.main p{
+    width: 30%;
+    margin-top: 8%;
+    font-size: 20px;
 }

@@ -6,6 +6,6 @@ var typed = new Typed("#typed-output", {
     startDelay: 500,
     loop: true,
     showCursor: true,
-    cursorChar: "",
+    cursorChar: "|",
     autoInsertCss: true,
   });
