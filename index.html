@@ -1,68 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Personal-POrtfolio</title>
-    <link rel="stylesheet" href="style.css" />
-    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
-    <script
-      src="https://kit.fontawesome.com/551d72ae0c.js"
-      crossorigin="anonymous"
-    ></script>
-  </head>
-  <body>
-
-    <div class="pointer" id="pointer"></div>
-
-    <div class="main">
-      <h1><strong>Hello web cowboy,</strong></h1>
-      <div class="first">
-        <h1>I'm Dinesh</h1>
-      </div>
-
-      <div class="main2">
-        <div class="para">
-          <p>
-            Hi! I'm a <a id="typed-output"></a> based in India. <br />Every day
-            I learn, read, and practice to create the best interfaces possible.
-            It's beautiful to have a passion and work at the same time, don't
-            you think?
-          </p>
-        </div>
-        <div class="files" id="files">
-          <div>
-            <a href="image.jpg" download class="resume">
-              <i class="fa-solid fa-file"></i>
-              <span>If you want my resume 📍</span>
-            </a>
-          </div>
-          <div>
-            <a href="mailto:dineshshankar156@gmail.com" class="resume">
-              <i class="fa-sharp fa-solid fa-envelope"></i>
-              <span>Or have a chat 🌀</span>
-            </a>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="social-links">
-      <a
-        href="https://www.linkedin.com/in/dine-sh-shankar-806178244?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
-        target="_blank"
-        ><i class="fa-brands fa-linkedin"></i>LinkedIn</a
-      >
-      <a href="https://instagram.com/dinesh__.18" target="_blank"
-        ><i class="fa-brands fa-instagram"></i>Instagram</a
-      >
-      <a href="https://twitter.com/your-twitter-handle" target="_blank"
-        ><i class="fa-brands fa-twitter"></i>Twitter</a
-      >
-    </div>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://unpkg.com/scrollreveal"></script>
+<body>
+  
+  <div class="box"></div>
+  <div class="box"></div>
+  <div class="box"></div>
+  <div class="box"></div>
+  <div class="box"></div>
+  <div class="box"></div>
+  <div class="box"></div>
+  <div class="box"></div>
+  <div class="box"></div>
 
 
-
-    <script src="additional.js"></script>
-  </body>
+  <script>
+    ScrollReveal().reveal('.box', {
+      delay:200,
+      duration:1000,
+      easing:'ease-in-out',
+      reset:true,
+      origin:'bottom',
+      });
+  </script>
+</body>
 </html>
