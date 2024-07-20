@@ -3,7 +3,6 @@
     padding: 0;
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
-    cursor:none;
 }
 
 .main{
@@ -66,24 +65,10 @@
     display: flex;
     
 }
-.inner{
-    width: 20px;
-    height: 20px;
+.pointer{
+    width: 15px;
+    height: 15px;
     border-radius: 50%;
+    position: relative;
     background-color: #000;
-}
-.outer{
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    border: 2px solid #000;
-    
-}
-.inner ,.outer{
-    position: fixed;
-    top: 0;
-    left: 0;
-    transform: translate(-50% ,-50%);
-    z-index: -1;
-    pointer-events: none;
 }

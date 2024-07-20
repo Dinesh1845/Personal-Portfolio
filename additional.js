@@ -10,21 +10,14 @@ var typed = new Typed("#typed-output", {
     autoInsertCss: true,
   });
 
+let pointer = document.getElementById("pointer");
 
+window.addEventListener("mousemove" , (e)=>{
+  pointer.animate({
+    left : `${e.clientX}px`,
+    top : `${e.clientY}px`
+  }, {duration:500 , fill:"forwards"})
+})
 
-  let inner = document.getElementById("inner");
-  let outer = document.getElementById("outer");
-
-  window.addEventListener("mousemove", (e) => {
-    inner.style.left = `${e.clientX}px`
-    inner.style.top = `${e.clientY}px`
-    
-    outer.animate({
-      left : `${e.clientX}px`,
-      top : `${e.clientY}px`
-    }, {duration:500 , fill:"forwards"})
-  });
-
-  let files = document.getElementById("files");
 
   
