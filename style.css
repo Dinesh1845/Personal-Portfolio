@@ -10,7 +10,7 @@
     flex-direction:column;
     margin-left: 10%;
     margin-top: 10%;
-    height: 100vh;
+    height: 70vh;
 }
 
 #typed-output{
@@ -49,13 +49,13 @@
     color: black;
 }
 .social-links {
-    position: fixed;
+    position:absolute;
     right: 20px;
     top: 50%;
     transform: translateY(-50%);
     display: flex;
     flex-direction: column;
-    gap: 100px;
+    gap: 80px;
 }
 
 .social-links a {

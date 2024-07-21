@@ -30,4 +30,4 @@ ScrollReveal().reveal(".main" , {
   distance:'50px',
   mobile:false,
   origin:'top'
-})
+});
