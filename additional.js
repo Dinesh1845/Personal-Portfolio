@@ -1,12 +1,6 @@
-import ScrollReveal from 'scrollreveal';
-
-ScrollReveal().reveal('.box' ,{
-  delay:500,
-  duration:1000,
+ScrollReveal().reveal(".box",{
+  duration:2000,
+  origin:'bottom',
   reset:true,
-  easing:'ease-in-out',
-  distance:'50px'
+  interval:16,
 });
-
-
-  
